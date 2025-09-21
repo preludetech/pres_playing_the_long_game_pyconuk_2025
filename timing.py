@@ -11,7 +11,6 @@ TODO post training 00:00
 DS economic: 00:52
 TODO TOol use 03:00
 TODO GPT5 02:00 
-TODO Vibe 03:00 
 
 Future: 3:16
 Bubble bursts: 04:17
