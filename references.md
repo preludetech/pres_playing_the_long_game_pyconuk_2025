@@ -1,3 +1,13 @@
+# security 
+
+https://simonwillison.net/2025/Aug/15/the-summer-of-johann/
+
+# Tool use
+https://chatgpt.com/s/dr_68ceb31d49488191a4e9deddccefaad1
+
+# post training 
+https://chatgpt.com/s/dr_68ce4b34159c8191bbee7cf452197f2a
+
 # The Hater's Guide To The AI Bubble
 https://www.wheresyoured.at/the-haters-gui/ 
 

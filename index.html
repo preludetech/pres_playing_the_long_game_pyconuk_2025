@@ -71,7 +71,7 @@
 		<div class="slides">
 			<section>
 				<h1>Playing the long game</h1>
-				<h2>🤖 In the age of LLMs 🤖</h2>
+				<h2 class="fragment">🤖 In the age of LLMs 🤖</h2>
 			</section>
 
 			<section>
@@ -79,13 +79,13 @@
 							<h2>Things are pretty weird right now</h2>
 
 				<ul>
-					<li class="fragment">AI and LLMs are ubiquitous</li>
+					<li class="fragment">"AI" and LLMs are ubiquitous</li>
 					<li class="fragment">Signal to noise ratio = terrible (hype + naysayers)</li>
 					<li class="fragment">Economically concerning</li>
-					<li class="fragment">Environmentally concerning</li>
 					<!-- <li class="fragment">New tools and big news every other week</li> -->
 					<li class="fragment">Emerging best practices</li>
 					<li class="fragment">Emerging footguns</li>
+					<li class="fragment">Environmentally concerning</li>
 				</ul>
 			</section>
 
@@ -115,7 +115,7 @@
 <section>
 				<h2>Hi, I'm Sheena</h2>
 				<ul>
-					<li class="fragment">Coding since young teen</li>
+					<li class="fragment">Software eng and lead</li>
 					<li class="fragment">
 						Spent the last 6 years in tech education
 
@@ -143,8 +143,9 @@
 				</h2>
 				<ul>
 					<li class="fragment">Preparing people for the future is my whole focus</li>
-					<li class="fragment">Lots of people ask me for career advice <span class="fragment">😨</span>  </li>
+					<li class="fragment">Lots of people ask me for career advice   </li>
 				</ul>
+				<h1 class="fragment">😨</h1>
 			</section>
 
 		
@@ -163,7 +164,8 @@ Software engineering xp
 					<li class="fragment">Research</li>
 					<li class="fragment">Chats with clever friends</li> -->
 					<li class="fragment">Not the final word</li>
-					<li class="fragment">We need to talk</li>
+					<!-- <li class="fragment">Encurage you</li> -->
+					<!-- <li class="fragment">We need to talk</li> -->
 				</ul>
 </section>
 
@@ -198,16 +200,18 @@ Software engineering xp
 
 			<section>
 				<h2>A brief history of LLMs</h2>
-				<ul class="fragment">
-					<li>2018: GPT 1</li>
-					<li>2019: GPT 2</li>
-					<li>2020: GPT 3</li>
-					<li>2021: Anthropic</li>
-					<!-- <li>2021: Dalle</li> -->
-					<li>2021: Codex + Github Copilot</li>
-					<li>December 2022: ChatGPT</li>
+				<ul >
+						<li class="fragment">2018: GPT 1</li>
+						<li class="fragment">2019: GPT 2 (post-training/fine tuning)</li>
+						<li class="fragment">2020: GPT 3</li>
+					<li class="fragment">2020: RAG</li>
+					<li class="fragment">2021: Anthropic</li>
+					<li class="fragment">2021: Codex + Github Copilot</li>
+					<li class="fragment">December 2022: ChatGPT</li>
 				</ul>
 			</section>
+
+			
 
 			<section>
 				<h2>Scaling "laws"</h2>
@@ -242,12 +246,40 @@ Software engineering xp
 			</section>
 
 			<section>
-				<h2>Continuing</h2>
+				<h2>Not all tokens are created equal</h2>
 				<ul>
-					<li class="fragment">2023: GPT-4 was amazing</li>
+					<li class="fragment">Quality data is hard to find</li>
+					<li class="fragment">Low hanging fruit has been picked</li>
+				</ul>
+			</section>
+
+			
+			<section>
+				<h2>2023</h2>
+				<ul>
+					<li class="fragment">OpenAI Plugin ecosystem + functions</li>
+					<li class="fragment">GPT-4 was amazing</li>
 					<li class="fragment">Microsoft research paper titled “Sparks of Artificial General Intelligence.”</li>
 					<li class="fragment">Venture-capital spending on A.I. jumped by eighty per cent in following year</li>
+					<li class="fragment">OpenAI's launches "Superalignment" project (Ilya Sutskever)</li>
 				</ul>
+			</section>
+
+			<section>
+				<h2>Post training</h2>
+				<ul>
+					<!-- <li class="fragment">Pre-training = eat the Internet</li>
+					<li class="fragment">Post-training = eat opinionated data</li> -->
+					<li class="fragment">Alignment - helpful, truthful, harmless</li>
+					<li class="fragment">Task/domain customization</li>
+					<li class="fragment">Open AI post-training since GPT-2</li>
+					<li class="fragment">Where do post-training datasets come from?</li>
+				</ul>
+			</section>
+
+			<section>
+				<h2>🤗 <a href="https://huggingface.co/models?sort=trending&search=prescription">search=prescription</a></h2>
+				<img src="images/hugging-face.png" alt="" height="500">
 			</section>
 
 			<!-- <section>
@@ -274,7 +306,13 @@ Software engineering xp
 					<li class="fragment">Come up with multiple answers, evaluate, return best one (scale up thinking time)</li>
 					<li class="fragment">December: o3 released</li>
 				</ul>
+			</section>
+
+			<section>
+				<h2>Late 2024: MCP</h2>
 				
+				<p>Open standard for connecting any AI assistant (LLM) to any external tool or data source in a plug-and-play way</p>
+
 			</section>
 
 			<section>
@@ -283,18 +321,23 @@ Software engineering xp
 
 					"The 2010s were the age of scaling, now we're back in the age of wonder and discovery once again. Everyone is looking for the next thing" 
 				</p>
-				<p>-  OpenAI co-founder Ilya Sutskever</p>
+				<p>- Ilya Sutskever </p>
+				<p style="font-size:large;">OpenAI co-founder | Safe Superintelligence Inc co founder</p>
 			</section>
+
+
+
 
 
 			<section>
 				<h2>2025: Plot twist</h2>
 
-				<ul>
+					<img src="images/DeepSeek_logo.svg" style="padding-top:1em;" class="fragment" alt="">
+				<!-- <ul>
 					<li class="fragment">January: DeepSeek R1</li>
 					<li class="fragment">Performance comparable to big models</li>
 					<li class="fragment">But much more resource efficient</li>
-				</ul>
+				</ul> -->
 			</section>
 
 			<section>
@@ -377,14 +420,7 @@ Software engineering xp
 				</ul>
 			</section>
 
-			<section>
-				<h2>Post training</h2>
-				<ul>
-					<li class="fragment">Pre-training = eat the Internet</li>
-					<li class="fragment">Post-training = eat opinionated data</li>
-					<li class="fragment">Where do post-training datasets come from?</li>
-				</ul>
-			</section>
+			
 
 			
 			<section>
@@ -395,7 +431,6 @@ Software engineering xp
 					"The intelligence of an AI model roughly equals the log of the resources used to train and run it. These resources are chiefly training compute, data, and inference compute. It appears that you can <strong>spend arbitrary amounts of money and get continuous and predictable gains;</strong> the scaling laws that predict this are accurate over many orders of magnitude."
 				</p>
 					<p>
-
 						- Sam Altman
 					</p>
 
@@ -428,27 +463,24 @@ Software engineering xp
 				</ul>
 			</section>
 
-			
 			<section>
-				<h2>Investment versus profit</h2>
+				<h2>XAI Colossus cluster</h2>
+
 				<ul>
-					<ul>
-						<li class="fragment">OpenAI lost $5 billion and Anthropic $5.3 billion in 2024,</li>
-						<!-- https://www.wheresyoured.at/why-everybody-is-losing-money-on-ai/ -->
-					</ul>
-					<li class="fragment">2025: OpenAI’s annual recurring revenue is now on track to pass $20 billion this year, but the company is still losing money</li>
+					<li class="fragment">Hosting 100,000 H100s</li>
+					<li class="fragment">Plans to expand this to at least 1 million</li>
 				</ul>
-				<!-- https://www.cnbc.com/2025/08/08/chatgpt-gpt-5-openai-altman-loss.html -->
+
+
+				<!-- https://www.jonvet.com/blog/llm-scaling-in-2025#are-scaling-laws-still-valid-or-have-we-hit-a-wall -->
 			</section>
 
 			
+			
 
-			<section>
-				April: o4 mini
-				tool use (when?) TODO 
-				MCP (when?)
+			
 
-			</section>
+			
 
 
 
@@ -460,14 +492,18 @@ Software engineering xp
 		
 
 			<section>
-				<h2>2025 July. ChatGPT 5</h2>
-				TODO prompt leak
-				underwhelm 
-				under the hood
-				graphs
+				<h2>2025 July. GPT 5</h2>
+				<ul>
+					<li class="fragment">Generally underwhelming</li>
+					<li class="fragment">Required different prompting strategy <a href="https://gist.github.com/maoxiaoke/f6d5b28f9104cd856a2622a084f46fd7">(leak)</a></li>
+					<li class="fragment">Under the hood: router that selects between multiple models</li>
+				<li class="fragment">In many cases, performance comparable with 03</li>
+				</ul>
+				<!-- https://openai.com/index/introducing-gpt-5/ -->
+				
 			</section>
 
-			<section>
+			<!-- <section>
 				<h2>History - main takeaways</h2>
 				<ul>
 					<li class="fragment">Scaling laws held pretty well for a while</li>
@@ -477,7 +513,7 @@ Software engineering xp
 					<li class="fragment">Rise of the Vibe</li>
 					<li class="fragment">Spinning hype is good business</li>
 				</ul>
-			</section>
+			</section> -->
 
 			<!-- <section>
 				<h2>Hype means...</h2>
@@ -493,14 +529,24 @@ Software engineering xp
 				<h1>Part 2</h1>
 				<h2>Looking to the future</h2></section>
 
+				<section>
+				<h2>Likely futures</h2>
+				<!-- <p class="fragment"></p> -->
+				<ul>
+					<li >Super-intelligence explosion</li>
+					<li >The bubble bursts</li>
+					<li >AI capabilities stabilize</li>
+				</ul>
+			</section>
+
 			<section>
 				<h2>Timeline 1: <br/>Super-intelligence explosion</h2>
 
 				<ul>
 					<li class="fragment">Current trajectory => AGI</li>
+					<li class="fragment">Assumes scaling laws hold</li>
 					<li class="fragment">💸💸💸 => AGI</li>
 					<li class="fragment">Different model architectures yield different results - have we landed on an architecture that is capable of AGI?</li>
-					<li class="fragment">Assumes scaling laws hold</li>
 				</ul>
 			</section>						
 
@@ -508,12 +554,19 @@ Software engineering xp
 				<h2>Are scaling laws really "laws"</h2>
 
 				<ul>
+					<li class="fragment">No answer about why scaling works. Foundational theory missing</li>
 					<li class="fragment">Hardware costs are massive</li>
 					<li class="fragment">Physical resource limitations</li>
-					<li class="fragment">Hard limits in data for pre-training (500B tokens. Not same quality)</li>
+					<li class="fragment">Hard limits in data for pre-training (510B tokens. Not same quality)</li>
+					<li class="fragment">
+
+						largest known dataset is ~18T tokens (Qwen2.5)
+					</li>
 					<li class="fragment">Post training data requires value judgments</li>
-					<li class="fragment">No answer about why scaling works. Foundational theory missing</li>
 				</ul>
+
+
+<!-- https://www.jonvet.com/blog/llm-scaling-in-2025#are-scaling-laws-still-valid-or-have-we-hit-a-wall -->
 
 			</section>
 
@@ -563,15 +616,65 @@ Software engineering xp
 
 	<ul>
 		<li class="fragment">No compelling evidence, only inference</li>
+		<li class="fragment">Winner takes all</li>
 		<li class="fragment">Clear that techniques and architectures are not in optimal state</li>
 	
 	</ul>
 </section>
 
 
+<section>
+
+	<p>"I’ve seen the story happen for enough times to really believe that probably the scaling is going to continue, and that there’s some magic to it that we haven’t really explained on a theoretical basis yet."</p>
+
+		<p>- 
+			Dario Amodei of Anthropic
+		</p>
+</section>
+
+<section>
+<p>
+
+	"There is no wall"
+</p>
+<p>
+	- Sam Altman
+</p>
+</section>
+
+<!-- 
+			
+ 
+
+TODO
+
+https://www.jonvet.com/blog/llm-scaling-in-2025#are-scaling-laws-still-valid-or-have-we-hit-a-wall
+-->
+
+
+
+
+
 
 			<section>
 				<h2>Timeline 2: The bubble bursts</h2>
+			</section>
+
+			<section>
+				<h2>Investment versus profit</h2>
+				<ul>
+						<li class="fragment">2024
+							<ul>
+								<li>
+									OpenAI lost $5 billion</li>
+
+								</li>
+								<li>Anthropic lost $5.3 billion</li>
+							</ul>
+						<!-- https://www.wheresyoured.at/why-everybody-is-losing-money-on-ai/ -->
+					<li class="fragment">2025: OpenAI’s annual recurring revenue is now on track to pass $20 billion this year, still losing money</li>
+				</ul>
+				<!-- https://www.cnbc.com/2025/08/08/chatgpt-gpt-5-openai-altman-loss.html -->
 			</section>
 
 			<section>
@@ -624,7 +727,7 @@ Software engineering xp
 					<li class="fragment">Can't use big financial hammers to make LLMs more powerful any more</li>
 					<li class="fragment">Existing infrastructure wont go away</li>
 					<li class="fragment">Core capabilities stabilize</li>
-					<li class="fragment">Tools become more expensive</li>
+					<li class="fragment">Tools become more expensive? Maybe</li>
 				</ul>
 			</section>
 			
@@ -632,20 +735,20 @@ Software engineering xp
 				<h2>Reverse brain drain</h2>
 				<ul>
 					<li class="fragment">ML experts and academics working in "closed" companies (big paychecks)</li>
-					<li class="fragment">AI talent released to the market</li>
-					<li class="fragment">Talent fed back to academia => open research</li>
+					<li class="fragment">Talent released to the market</li>
 					<li class="fragment">Talent available to other orgs</li>
+					<li class="fragment">Talent fed back to academia => open research</li>
 				</ul>
 			</section>
 
-			<section>
+			<!-- <section>
 				<h2>How likely is this?</h2>
 				<ul>
 					<li class="fragment">Many valid reasons to worry</li>
 					<li class="fragment">LLMs are already very useful</li>
 					<li class="fragment">Stargate investments are huge</li>
 				</ul>
-			</section>
+			</section> -->
 
 			<section>
 				<h2>Timeline 3: LLM capabilities stabilize</h2>
@@ -672,17 +775,69 @@ Software engineering xp
 
 			</section>
 
-			
-
 			<section>
 				<h2>Job market</h2>
 				<ul>
+					<li class="fragment">Mass layoffs</li>
+					<li class="fragment">5 year low</li>
+				</ul>
+			</section>
+			
+
+			<section>
+				<h2>Job market crash</h2>
+				<!-- <ul>
 					<li class="fragment">TODO + standford experiment</li>
+				</ul> -->
+
+				<img src="images/fredgraph.png"/>
+				<p>US Job postings on Indeed</p>
+				<!-- https://blog.pragmaticengineer.com/software-engineer-jobs-five-year-low/#:~:text=Facts%20about%20software%20developer%20jobs,on%20Indeed -->
+				<!-- https://newsletter.pragmaticengineer.com/p/state-of-the-tech-market-in-2025 -->
+			</section>
+
+			<section>
+				<h2>What happened?</h2>
+				<ul>
+					<li class="fragment">Recession => layoffs</li>
+					<li class="fragment">Covid => level up remote products/services</li>
+					<li class="fragment">Zero interest rates => Free money</li>
+					<li class="fragment">Flood of new talent</li>
+					<li class="fragment">Company right-sizing => low open positions</li>
+					<li class="fragment">Hesitance to make that mistake again</li>
+					<li class="fragment">Emphasis on effective teams rather than big teams</li>
 				</ul>
 			</section>
 
 
+			<section>
+				<h2>Recovery</h2>
+				<img src="images/trueup.png" alt="">
 
+			</section>
+
+			<section>
+				<h2>What's happening?</h2>
+				<ul>
+					<li class="fragment">Natural attrition => job openings</li>
+					<li class="fragment">Vibe code => new opportunities
+						<ul>
+							<li class="fragment">Vibe code cleanup specialist</li>
+							<li class="fragment">More entrepreneurs</li>
+						</ul>
+					</li>
+					<li class="fragment">New jobs: AI-security, observability, ops...</li>
+				</ul>
+			</section>
+
+			
+			<!-- <section>
+				<h2>Junior dev jobs</h2>
+				<ul>
+					<li class="fragment">Internal pipelines</li>
+					<li class="fragment"></li>
+				</ul>
+			</section> -->
 			
 			<section>
 				<h2>Predictions</h2>
@@ -690,12 +845,10 @@ Software engineering xp
 					<li class="fragment">Model capabilities will not make major jumps. Might get a faster car, but not a rocket-ship</li>
 					<li class="fragment">Explosion of model applications will continue</li>
 					<li class="fragment">Serious problems (eg medical) will be owned by big players</li>
-					<li class="fragment">Likely innovations in clean energy, but not sure about water</li>
-					<li class="fragment">Software eng job market will trend upwards</li>
-					<li class="fragment">Vibe coding will lead to more dev jobs</li>
-					<li class="fragment">Different jobs emerge: security, observability, vibe cleanup</li>
+					<!-- <li class="fragment">Likely innovations in clean energy, but not sure about water</li> -->
 				</ul>
 			</section>
+			
 
 			<section>
 				<h1>Part 3</h1>
@@ -715,11 +868,16 @@ Software engineering xp
 			<section>
 				<h2>Early career developers</h2>
 				<ul>
-					<li class="fragment">Opportunities are scarce right now</li>
-					<li class="fragment">Hard to get noticed</li>
+					<li class="fragment">Opportunities are scarce right now
+						<ul>
+							<li class="fragment">Some jobs automated</li>
+							<li class="fragment">Talent pool = huge and experienced</li>
+						</ul>
+					</li>
 					<li class="fragment">A lot of people dropping out of tech entirely</li>
 					<!-- <li class="fragment">Likely future talent vacuum - if you get good there will be work</li> -->
 					<li class="fragment">Unsure of what skills to build</li>
+					<li class="fragment">Hard to get noticed</li>
 					<li class="fragment">LLMs can help or harm</li>
 				</ul>
 			</section>
@@ -742,9 +900,9 @@ Software engineering xp
 					<li class="fragment">Shallow knowledge of many tools</li>
 					<li class="fragment">Portfolio of tiny projects</li>
 					<li class="fragment">Chasing certificates</li>
-					<li class="fragment">Cargo-culting</li>
-					<li class="fragment">Prioritizing fanciness</li>
-					<li class="fragment">Undervalue understanding</li>
+					<!-- <li class="fragment">Undervalue understanding</li>
+					<li class="fragment">Prioritizing fanciness and half-baked features</li> -->
+					<!-- <li class="fragment">Cargo-culting</li> -->
 				</ul>
 			</section>
 
@@ -760,12 +918,12 @@ Software engineering xp
 			<section>
 				<h2>Go deep by building big</h2>
 				<ul>
-					<li class="fragment">Build+demonstrate mental discipline, grit, attention to detail</li>
+					<li class="fragment">Build + demonstrate mental discipline, grit, attention to detail</li>
+					<li class="fragment">Steer clear of golden pathways</li>
 					<li class="fragment">Use LLMs to write code but you will hit a wall</li>
-					<li class="fragment">One piece at a time</li>
-					<li class="fragment">Simple architecture</li>
-					<li class="fragment">Iterate on your understanding</li>
 					<li class="fragment">When you get stuck - that is a trigger to learn more</li>
+					<li class="fragment">Simple architecture</li>
+					<li class="fragment">One COMPLETE feature at a time -> understand iteratively</li>
 					<li class="fragment">Be your own vibe-code cleanup specialist</li>
 				</ul>
 			</section>
@@ -816,10 +974,11 @@ Software engineering xp
 				<h2>Organizations</h2>
 				<ul>
 					<li class="fragment">Don't be fooled by greenfield POCs</li>
-					<li class="fragment">Security and privacy best practices not fully understood or developed</li>
-					<li class="fragment">Focus on guardrails, validation and observability</li>
 					<li class="fragment">Ask your most capable and experienced engineers to find ways to use the tools safely</li>
-					<li class="fragment"></li>
+					<li class="fragment">Favor deterministic systems</li>
+					<!-- <li class="fragment">Security and privacy best practices not fully understood or developed</li> -->
+					<!-- <li class="fragment">Focus on guardrails, validation and observability</li> -->
+					<!-- <li class="fragment"></li> -->
 					<!-- <li class="fragment">LLM based products are slow, expensive and non-deterministic</li> -->
 				</ul>
 			</section>
@@ -830,6 +989,8 @@ Software engineering xp
 				<ul>
 					<li class="fragment">Build a grad program/internship program</li>
 					<li class="fragment">Avoid the CV arms race</li>
+					<li class="fragment">Focus on relationships and community</li>
+					<li class="fragment">"Recruiter" doesn't need to be a dirty word</li>
 				</ul>
 			</section>
 
@@ -844,15 +1005,31 @@ Software engineering xp
 				<h2>Nurturing the dev ecosystem and talent pool</h2>
 				<ul>
 					<li class="fragment">Invest in the ecosystem</li>
-					<li class="fragment">Strong talent => good for everyone</li>
-					<li class="fragment">Stimulate the industry</li>
+					<li class="fragment">Not a zero sum game</li>
 					<li class="fragment">Build a good reputation</li>
+					<li class="fragment">More talent, partners, clients, ideas, opportunities</li>
 				</ul>
 			</section>
 
 			<section>
-				<h2>Derisk hiring</h2>
+				<h2>More...</h2>
+				<ul>
+					<li>Talent</li>
+					<li>Partners</li>
+					<li>Clients</li>
+					<li>Innovation</li>
+					<li>Opportunities</li>
+				</ul>
 			</section>
+
+			<section>
+				<h2>Thanks!</h2>
+
+			</section>
+
+			<!-- <section>
+				<h2>Derisk hiring</h2>
+			</section> -->
 
 
 
